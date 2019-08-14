@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/Discount_Coupon_Code_at_Checkout_Steps",
+    "type": "magento-module",
+    "license": "Open-Software-License-(OSL)",
+    "homepage": "",
+    "description": "This extension allows user to enter discount coupon code at any step of Onepage checkout page. ",
+    "authors": [
+    {
+        "name": "Deepak mnakotia",
+        "email": "deepakmankotiacse@gmail.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

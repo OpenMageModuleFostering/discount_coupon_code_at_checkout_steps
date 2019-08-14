@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<package>
+    <name>Discount_Coupon_Code_at_Checkout_Steps</name>
+    <version>0.1.0</version>
+    <stability>stable</stability>
+    <license>Open Software License (OSL)</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>This extension allows user to enter discount coupon code at any step of Onepage checkout page. </summary>
+    <description>&lt;b&gt;Want to increase your Conversion Rate? Easy!&lt;/b&gt;&lt;br /&gt;&#xD;
+&#xD;
+It has been proved by dozens of researches that discounts decreases cart abandonment. Customers love to pay less. That's why it's so crucial to have an option to apply a coupon not only at shopping cart page, but also at a checkout page.&lt;br /&gt;&#xD;
+&#xD;
+A common issue associated with the one page checkout on your store is that it won&#x2019;t provide any option for customers to feed their coupon codes directly here. However, you can make it work for your customers by installing  "Checkout Discount Coupon" extension. &lt;br /&gt;&#xD;
+&#xD;
+This is Magento Extension which allow to add new step after Shipping/Billing Information or Shipping Methods or Payment Methods step of your checkout process. &#xD;
+&#xD;
+&lt;h2&gt;Features:&lt;/h2&gt;&#xD;
+&#xD;
+    Allow to enter discount coupon code after "Billing/ Shipping Information" or "Shipping Methods" or "Payment Methods" on the Onepage checkout page.&lt;br /&gt;&#xD;
+    Apply entered coupon code and display discount amount on the 'Order Review' step of the Onepage checkout.&lt;br /&gt;&#xD;
+    Seamless integration into Magento system&lt;br /&gt;&#xD;
+    Coupons are being applied without page reload. &lt;br /&gt;&#xD;
+    Easy to install and use / Easy 2-minutes installation&lt;br /&gt;&#xD;
+    100% Open Source&lt;br /&gt;&lt;br /&gt;&#xD;
+&#xD;
+&lt;h2&gt;Installation &lt;/h2&gt;&#xD;
+&#xD;
+    Go to magento admin and flush store cache (System &gt; Cache Management &gt; 'Flush Magento Cache' button)&lt;br /&gt;&#xD;
+    Download the extension package from your account and extract the downloaded archive.&lt;br /&gt;&#xD;
+    Copy the content of extracted folder to your store's root directory &lt;br /&gt;&#xD;
+    Flush store cache again&lt;br /&gt;&#xD;
+    Log out from the backend and log in again.&lt;br /&gt;&#xD;
+    Go to extension configuration (System &gt; Configuration &gt; Magegeeks Extension &gt; Checkout Discount Coupon Configuration) and enable the extension also select the "Select step to display 	Discount Tab".&lt;br /&gt;&#xD;
+    Flush store cache again .&lt;br /&gt;&lt;br /&gt;&#xD;
+&#xD;
+    &lt;b&gt;Congratulations! After completing this last step, you will be able to see new step on your checkout process.&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&#xD;
+&#xD;
+&lt;h2&gt;FAQ&lt;/h2&gt;&#xD;
+&#xD;
+&lt;b&gt;After installing this extension my store gives error or a blank page.&lt;/b&gt;&lt;br/&gt;&#xD;
+Go to Magento Backend, Flush Store Cache (System &gt; Cache Management&gt; 'Flush Magento Cache' button), Logout and Login again. &lt;br/&gt;&lt;br/&gt;&#xD;
+&#xD;
+&lt;b&gt;I need additional functionality.&lt;/b&gt;&lt;br/&gt;&#xD;
+Please contact "deepakmankotiacse@gmail.com". If we like the idea we can implement this in next release or do customization just for you. &#xD;
+</description>
+    <notes>Checkout Discount Coupon Step extension will add new step called 'Discount Coupon' on the Onepage checkout, where user can enter the discount coupon code during the checkout process.&lt;br/&gt;&lt;br/&gt;&#xD;
+&#xD;
+&lt;b&gt;Features:&lt;/b&gt;&lt;br /&gt;&#xD;
+&#xD;
+    Allow to enter discount coupon code on the Onepage checkout page.&lt;br/&gt;&#xD;
+    Apply entered coupon code and display discount amount on the 'Order Review' step of the Onepage checkout.&lt;br/&gt;&#xD;
+</notes>
+    <authors><author><name>Deepak mnakotia</name><user>deepakmankotia</user><email>deepakmankotiacse@gmail.com</email></author></authors>
+    <date>2015-07-10</date>
+    <time>09:26:37</time>
+    <contents><target name="mageetc"><dir name="modules"><file name="Magegeeks_Checkoutdiscountcoupon.xml" hash="db6d640ab5355e41495bfea65bb5009e"/></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="checkoutdiscountcoupon.xml" hash="62981c14d4148e93bf7be2b467267355"/></dir><dir name="template"><dir name="checkoutdiscountcoupon"><dir name="checkout"><dir name="onepage"><file name="discountcode.phtml" hash="bb1acd35c2f7925f060495e561dd8a14"/><file name="progress.phtml" hash="da5609265e0bae9e7173b5534467da62"/></dir></dir></dir></dir></dir></dir></dir></target><target name="mage"><dir name="js"><dir name="checkoutdiscountcoupon"><file name="checkout.js" hash="850331185f6404477ffb3cf33baa1a96"/></dir></dir></target><target name="magelocal"><dir name="Magegeeks"><dir name="Checkoutdiscountcoupon"><dir name="Block"><dir name="Checkout"><file name="Cart.php" hash="af2fcc7b835747aba9c2c49c51a1c186"/><dir name="Onepage"><file name="Discountcode.php" hash="ffb5c654c1ed0d9b8a7d5b72174df087"/><file name="Progress.php" hash="1dda984ffcc75e917ac870a60f7b0fd4"/></dir><file name="Onepage.php" hash="7a1195d39869ceb41cab13b6ec9a37ec"/></dir></dir><dir name="Helper"><file name="Data.php" hash="a4435eb1e78ddce190f4c40994036049"/></dir><dir name="Model"><file name="Observer.php" hash="4c3a2bcae4f76c497291c48cd2ac937f"/><file name="Source.php" hash="1c8d04167b1a3778249ab631ee971b6a"/></dir><dir name="controllers"><file name="IndexController.php" hash="e3b696f80c6f8bd3c63bc00e653d0e38"/></dir><dir name="etc"><file name="config.xml" hash="d9811b961e82baa9515d41141ef64222"/><file name="system.xml" hash="3f90ef1397a02edf0d59b96faa8aab88"/></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>5.6.0</max></php></required></dependencies>
+</package>
